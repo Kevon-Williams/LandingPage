@@ -45,9 +45,6 @@
 }
 
 
-.hero-left >  {
-    
-}
 
 .hero-left h1 {
     font-size: 50px;
@@ -81,6 +78,45 @@
 
 .hero-right span {
     font-size: 18px;
+}
+
+/* middle */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+    margin-top: 40px;
+}
+
+.middle h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+.card-box {
+    display: flex;
+    gap: 38px;
+}
+
+.card-style-1 {
+    text-align: center;
+}
+
+.card-style-1 p {
+    width: 160px;
+    margin-top: 7px;
+}
+
+
+.box-inner {
+    border: 3.5px solid #3882f6;
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
 }
 
 
