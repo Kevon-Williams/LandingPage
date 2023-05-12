@@ -7,5 +7,28 @@
     margin: 0;
 }
 
+/* nav */
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    background-color: #1f2937;
+}
 
+.nav span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+}
+
+/* utilities */
+
+.white {
+    color: white;
+}
