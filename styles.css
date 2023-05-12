@@ -89,6 +89,7 @@
     align-items: center;
     gap: 21px;
     margin-top: 40px;
+    height: 400px;
 }
 
 .middle h1 {
@@ -117,6 +118,31 @@
     width: 160px;
     height: 160px;
     border-radius: 10px;
+}
+
+/* quote */
+
+.quote {
+    background-color: #e5e7eb;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px auto;
+}
+
+.quote p {
+    font-size: 36px;
+    width: 690px;
+    font-style: italic;
+}
+
+.quote span {
+    margin-left: 390px;
+    font-size: 36px;
+    font-weight: bold;
 }
 
 
