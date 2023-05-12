@@ -32,3 +32,56 @@
 .white {
     color: white;
 }
+
+/* hero */
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 180px 200px;
+    background-color: #1f2937;
+}
+
+
+.hero-left >  {
+    
+}
+
+.hero-left h1 {
+    font-size: 50px;
+    font-weight: bold;
+    width: 340px;
+}
+
+.hero-left p {
+    width: 500px;
+    font-size: 20px;
+}
+
+.btn {
+    color: white;
+    background-color:#3882f6;
+    border: none;
+    padding: 7px 22px;
+    margin-top: 8px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+
+.hero-right {  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 580px;
+    height: 250px;
+    background-color: #4f5156;
+}
+
+.hero-right span {
+    font-size: 18px;
+}
+
+
+
